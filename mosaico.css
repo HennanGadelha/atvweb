@@ -1,0 +1,8 @@
+     #center {
+         margin: 0px auto;
+         padding: 20px;
+         flex-wrap: wrap;
+         width: 1000px;
+         text-align: center;
+         border: 1px solid lightcoral;
+     }

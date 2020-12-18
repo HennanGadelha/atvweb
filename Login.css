@@ -1,0 +1,18 @@
+body {
+    background-repeat: no-repeat;
+}
+
+.login-cadastro {
+    display: flex;
+    float: right;
+}
+
+.login-cadastro input {
+    margin: 5px;
+    height: 20px;
+    padding: 5px;
+}
+
+.login-cadastro .btn {
+    margin: 5px;
+}

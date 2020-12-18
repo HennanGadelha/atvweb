@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My figure</title>
+    <style>
+
+        #gerarImagemAleatoria:hover{
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <input type="checkbox" name="" id="check">
+
+    <label for="check">
+        <img class="img-menu" src="menu.png" alt="">
+    </label>
+
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="index.html">Início</a>
+            </li>
+            <li>
+                <a href="mosaico.html">Meu mosaico</a>
+            </li>
+            <li>
+                <a href="Login.html">Sair</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <button id="gerarImagemAleatoria" onclick="getExternalImage()">Gerar imagem aleatoria</button>
+        <div class="image"></div>
+    </main>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
